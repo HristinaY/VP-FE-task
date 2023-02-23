@@ -1,0 +1,7 @@
+.products-listing-wrap {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 20px;
+}

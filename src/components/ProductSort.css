@@ -1,0 +1,39 @@
+.products-sort__control {
+    position: relative;
+    cursor: pointer;
+}
+
+.products-sort label {
+    transition: all 0.2s ease 0s;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    pointer-events: none;
+    color: rgb(111, 111, 111);
+    transform: translateY(-50%);
+    font-size: 0.9em;
+}
+
+.products-sort select {
+    font-size: 1rem;
+    height: 3.5rem;
+    padding-top: 1.25rem;
+    padding-inline: 20px;
+    border-radius: 0px;
+    color: rgb(34, 25, 36);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(222, 222, 222);
+    outline: none;
+    cursor: pointer;
+}
+
+.products-sort option {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.products-sort:focus select {
+    border: 1px solid rgb(111, 111, 111);
+    box-shadow: none;
+    outline: none;
+}

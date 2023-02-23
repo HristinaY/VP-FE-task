@@ -1,0 +1,13 @@
+.best-seller-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(253, 253, 253);
+    background-color: rgba(0, 129, 185, 0.8);
+    padding: 3px;
+    text-align: center;
+}
+.best-seller-banner p {
+    margin: 0;
+}
